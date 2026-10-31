@@ -67,6 +67,7 @@ body {
 }
 
 @media (pointer: fine) {
+
   body.has-cursor,
   body.has-cursor a,
   body.has-cursor button {
