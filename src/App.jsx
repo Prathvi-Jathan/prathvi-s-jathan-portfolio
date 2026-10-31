@@ -1,5 +1,6 @@
 import { useSmoothScroll } from './hooks/useSmoothScroll'
 import Cursor from './components/Cursor'
+import Hud from './components/Hud'
 import ScrambleText from './components/ScrambleText'
 import { personalInfo, heroContent } from './data/portfolioData'
 
@@ -9,7 +10,8 @@ export default function App() {
   return (
     <>
       <Cursor />
-      <div className="min-h-screen bg-ink text-bone font-sans hud-grid flex items-center justify-center p-6">
+      <Hud />
+      <div id="home" className="min-h-screen bg-ink text-bone font-sans hud-grid flex items-center justify-center p-6 pt-24">
         <div className="hud-frame bg-panel border border-bone/10 p-8 max-w-xl w-full">
           <div className="font-mono text-xs uppercase tracking-widest text-signal mb-2">
             <ScrambleText text={heroContent.eyebrow} trigger="mount" speed={25} />
