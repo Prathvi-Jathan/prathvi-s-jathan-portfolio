@@ -70,7 +70,11 @@ export default function Hud() {
     >
       <div className="max-w-[1440px] mx-auto h-full px-5 md:px-10 flex items-center justify-between">
         {/* Left: Brand badge & name */}
-        <a href="#home" className="flex items-center gap-3 group">
+        <a
+          href="#home"
+          aria-label={personalInfo.brandName || personalInfo.name}
+          className="flex items-center gap-3 group"
+        >
           <span className="w-8 h-8 flex items-center justify-center border border-signal font-mono text-xs font-semibold text-signal transition-transform group-hover:scale-105">
             {initials}
           </span>

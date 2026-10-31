@@ -115,7 +115,16 @@ export default function Projects() {
       const progress = progressRef.current
       if (!track || !section) return
 
-      const getScrollDistance = () => track.scrollWidth - window.innerWidth + 80
+      const getScrollDistance = () => {
+        const distance = track.scrollWidth - window.innerWidth + 80
+        return distance > 0 ? distance : 0
+      }
+
+      const totalDist = getScrollDistance()
+      if (totalDist <= 0) {
+        if (progress) gsap.set(progress, { scaleX: 1 })
+        return
+      }
 
       gsap.to(track, {
         x: () => -getScrollDistance(),
