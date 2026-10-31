@@ -2,7 +2,7 @@
 
 A high-performance "Signal HUD" developer portfolio built with React 19, Vite, and technical motion graphics.
 
-**Live site:** https://YOUR-SITE-URL/
+**Live site:** https://prathvi-s-jathan-portfolio.vercel.app/
 
 Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
 
