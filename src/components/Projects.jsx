@@ -82,7 +82,7 @@ function ProjectCard({ project }) {
             className="bg-signal text-ink hover:bg-bone transition-colors font-mono text-[11px] font-semibold uppercase tracking-[0.2em] px-4 py-2.5 inline-flex items-center gap-1.5"
           >
             <span>Live</span>
-            <span aria-hidden="true">&nearr;</span>
+            <span aria-hidden="true">↗</span>
           </a>
         )}
         {project.githubUrl && (
@@ -93,7 +93,7 @@ function ProjectCard({ project }) {
             className="border border-bone/30 text-bone hover:border-signal hover:text-signal transition-colors font-mono text-[11px] font-semibold uppercase tracking-[0.2em] px-4 py-2.5 inline-flex items-center gap-1.5"
           >
             <span>Code</span>
-            <span aria-hidden="true">&nearr;</span>
+            <span aria-hidden="true">↗</span>
           </a>
         )}
       </div>

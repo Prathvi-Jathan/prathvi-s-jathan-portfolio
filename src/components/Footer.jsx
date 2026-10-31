@@ -56,7 +56,7 @@ export default function Footer() {
                   className="font-mono text-xs uppercase tracking-wider text-bone/75 hover:text-signal transition-colors inline-flex items-center gap-1.5 w-fit"
                 >
                   <span>{social.label}</span>
-                  <span aria-hidden="true">&nearr;</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
               ))}
             </div>
@@ -81,10 +81,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Massive Faint Watermark */}
+        {/* Massive Faint Watermark (scaled to fit full name without clipping) */}
         <div
           aria-hidden="true"
-          className="w-full text-center uppercase whitespace-nowrap text-[13.5vw] font-bold leading-none tracking-[-0.05em] text-bone/[0.07] select-none my-8 md:my-12 overflow-hidden pointer-events-none"
+          className="w-full text-center uppercase whitespace-nowrap text-[clamp(2.5rem,8.6vw,9rem)] font-bold leading-none tracking-[-0.04em] text-bone/[0.07] select-none my-8 md:my-12 overflow-hidden pointer-events-none"
         >
           {brandName}
         </div>

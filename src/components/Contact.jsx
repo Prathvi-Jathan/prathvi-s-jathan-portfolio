@@ -142,7 +142,7 @@ export default function Contact() {
                   className="font-mono text-xs uppercase tracking-[0.2em] text-bone/70 hover:text-signal transition-colors inline-flex items-center gap-1.5"
                 >
                   <span>{social.label}</span>
-                  <span aria-hidden="true">&nearr;</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
               ))}
             </div>
