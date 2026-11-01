@@ -84,7 +84,7 @@ export const projects = [
       "Converts speech from one language into another while preserving the original speaker's voice using speech recognition, language translation, and voice synthesis.",
     tags: ["Python", "Voice Cloning", "FFmpeg"],
     year: "2025",
-    liveUrl: "https://github.com/Prathvi-Jathan/AI-Powered-Voice-Dubbing",
+    liveUrl: "",
     githubUrl: "https://github.com/Prathvi-Jathan/AI-Powered-Voice-Dubbing",
   },
   {
@@ -95,8 +95,8 @@ export const projects = [
       "Civic-tech issue reporting and resolution platform with incident tracking, community workflows, and SQL analytics.",
     tags: ["Django", "SQL", "Bootstrap"],
     year: "2026",
-    liveUrl: "https://github.com/Prathvi-Jathan",
-    githubUrl: "https://github.com/Prathvi-Jathan",
+    liveUrl: "https://neighbour-vsk-project.vercel.app/home",
+    githubUrl: "https://github.com/Prathvi-Jathan/neighbour-vskProject",
   },
 ];
 
@@ -133,4 +133,3 @@ export const emailjsConfig = {
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
   publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_EMAILJS_PUBLIC_KEY",
 };
-
