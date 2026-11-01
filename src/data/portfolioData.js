@@ -90,9 +90,9 @@ export const projects = [
   {
     id: "project-2",
     number: "02",
-    title: "Neighborhood Problem Reporting & Resolution",
+    title: "Neighbourhood Connect – Civic-Tech Showcase",
     description:
-      "Community issue reporting and resolution platform with incident tracking, status workflows, and SQL analytics.",
+      "Civic-tech issue reporting and resolution platform with incident tracking, community workflows, and SQL analytics.",
     tags: ["Django", "SQL", "Bootstrap"],
     year: "2026",
     liveUrl: "https://github.com/Prathvi-Jathan",

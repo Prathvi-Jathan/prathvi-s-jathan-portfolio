@@ -7,7 +7,7 @@ import { projects } from '../data/portfolioData'
 gsap.registerPlugin(ScrollTrigger)
 
 // Load all project images dynamically from assets
-const projectImages = import.meta.glob('../assets/projects/*.(png|jpg|jpeg|webp|svg)', {
+const projectImages = import.meta.glob('../assets/projects/*.{png,jpg,jpeg,webp,svg}', {
   eager: true,
   import: 'default',
 })
